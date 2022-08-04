@@ -21,6 +21,7 @@ const LoginComponent = () => {
 
     const changeEmail = (e) => {
         const text = e.target.value;
+        // eslint-disable-next-line
         const emailCheck = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
         if (!text.match(emailCheck)) {
             setError(true)
