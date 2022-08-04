@@ -63,8 +63,7 @@ const LoginComponent = () => {
                             <div className="form-group mb-3">
                                 <label htmlFor="email" className='mb-2'>Email address</label>
                                 <input type="email" className="form-control" id="email" placeholder="Enter email" onChange={(e) => changeEmail(e)} />
-                                {error && <span className='text-danger'>Enter a
-                                    valid email</span>}
+                                {error && <span className='text-danger'>Enter a valid email</span>}
                             </div>
                             <div className="form-group mb-4">
                                 <label htmlFor="pass" className='w-100 mb-2'>Password <span className='forget float-end'>Forgot Password?</span></label>
